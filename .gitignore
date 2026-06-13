@@ -1,0 +1,72 @@
+# ===== 大文件 / 不上传 GitHub =====
+
+# 测试集(6万张,老师评测用,本地保留)
+test_shuffled/
+
+# 可由 make_splits.py 从 train_few_shot 复现的验证集
+dev_few_shot/
+frozen_test/
+
+# 失败/中间实验数据目录
+sr_dev_few_shot/
+sr_frozen_test/
+shift_test_light/
+shift_test_mid/
+shift_test_heavy/
+holdout_pool/
+holdout_test/
+imb_pool/
+imb_test/
+
+# 模型权重(大文件,可由训练脚本复现)
+artifacts/
+*.pt
+*.joblib
+*.npz
+
+# ===== 本地工具配置 / AI 记忆(隐私,不公开) =====
+.claude/
+.workbuddy/
+
+# ===== 废弃脚本归档 =====
+_archive/
+
+# ===== 参考论文 PDF(版权) =====
+*.pdf
+
+# ===== 临时 / 缓存 =====
+__pycache__/
+*.pyc
+*.log
+*.err
+_check.txt
+_report_*.txt
+diag_out.txt
+check_sub.py
+read_docx.py
+project_summary.md
+report/node_modules/
+
+# ===== 实验结果 json(中间产物) =====
+*_results.json
+class_desc.json
+
+# ===== 中间实验输出(保留最终提交 24124035.csv) =====
+sub_*.csv
+submission.csv
+
+# ===== 旧版本报告(只保留 v5) =====
+机器学习2课程报告.docx
+report/机器学习2课程报告_v1.docx
+report/机器学习2课程报告_v2.docx
+report/机器学习2课程报告_v3.docx
+report/机器学习2课程报告_v4.docx
+report/make_report.js
+report/make_report_v2.js
+report/make_report_v3.js
+report/make_report_v4.js
+
+# ===== 旧 VLM 中间产物(已弃用方向) =====
+report/vlm_rag_*.md
+report/vlm_rag_dashscope*.md
+report/claude_dev_analysis.md

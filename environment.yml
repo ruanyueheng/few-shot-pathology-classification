@@ -1,0 +1,17 @@
+name: ml2_fewshot
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch
+      - torchvision
+      - timm
+      - scikit-learn
+      - pandas
+      - pillow
+      - tqdm
+      - matplotlib
+      - seaborn

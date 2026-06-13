@@ -1,0 +1,62 @@
+{
+  "fig1_samples.png": [
+    960,
+    1004
+  ],
+  "fig2_progression.png": [
+    1185,
+    617
+  ],
+  "fig2_progression_v4.png": [
+    1238,
+    646
+  ],
+  "fig3_confusion.png": [
+    701,
+    674
+  ],
+  "fig3_confusion_v4.png": [
+    742,
+    708
+  ],
+  "fig4_tsne.png": [
+    913,
+    788
+  ],
+  "fig5_vlm.png": [
+    915,
+    612
+  ],
+  "fig6_validation.png": [
+    1006,
+    612
+  ],
+  "fig_ablation.png": [
+    1066,
+    639
+  ],
+  "fig_architecture.png": [
+    1275,
+    1635
+  ],
+  "fig_leakage.png": [
+    825,
+    611
+  ],
+  "fig_learning_curve.png": [
+    1066,
+    672
+  ],
+  "fig_stain_shift.png": [
+    936,
+    963
+  ],
+  "fig_supcon.png": [
+    826,
+    612
+  ],
+  "fig_oof_confusion.png": [
+    806,
+    767
+  ]
+}
