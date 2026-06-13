@@ -45,7 +45,7 @@ python self_train.py --backbone vits14 \
 python submit_best.py
 # 或单方法: python infer_lora.py --method laplacianshot ...
 ```
-提交文件:`24124035.csv`(61,881 行,格式 `filename,label`)。
+提交文件:`submission.csv`(61,881 行,格式 `filename,label`)。
 
 ## 目录结构
 
