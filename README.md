@@ -53,7 +53,6 @@ python submit_best.py
 final_project/
 ├── README.md  environment.yml  .gitignore
 ├── train_few_shot/            # 250 张训练图(5类×50)
-├── 24124035.csv               # 最终提交
 ├── src/
 │   ├── 核心:  data.py  train_lora.py  self_train.py  transductive.py
 │   ├── 推理:  infer_lora.py  submit_best.py  final_submit.py  infer_phikon.py
@@ -63,10 +62,7 @@ final_project/
 │   ├── 自训练: self_train_61k.py
 │   ├── 消融/诊断: exp_learning_curve.py  exp_maha.py  diag_errors.py
 │   └── 数据构造: make_splits.py  make_holdout.py  make_imbalanced_holdout.py
-└── report/
-    ├── 机器学习2课程报告_v5.docx   # 最终报告
-    ├── make_report_v5.js          # 报告生成脚本(Node + docx)
-    └── figures/                   # 报告插图
+└── 
 ```
 
 ## 关键脚本说明
