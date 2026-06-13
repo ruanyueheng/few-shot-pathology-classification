@@ -55,12 +55,9 @@ class_desc.json
 sub_*.csv
 submission.csv
 
-# ===== 旧版本报告(只保留 v5) =====
+# ===== 课程报告(不公开) =====
 机器学习2课程报告.docx
-report/机器学习2课程报告_v1.docx
-report/机器学习2课程报告_v2.docx
-report/机器学习2课程报告_v3.docx
-report/机器学习2课程报告_v4.docx
+report/机器学习2课程报告_v*.docx
 report/make_report.js
 report/make_report_v2.js
 report/make_report_v3.js
